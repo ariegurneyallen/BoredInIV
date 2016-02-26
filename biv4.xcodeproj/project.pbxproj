@@ -13,6 +13,8 @@
 		634790DB1BE185FC003A201A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634790DA1BE185FC003A201A /* Images.xcassets */; };
 		634790DE1BE185FC003A201A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634790DC1BE185FC003A201A /* LaunchScreen.xib */; };
 		634790EA1BE185FC003A201A /* biv4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634790E91BE185FC003A201A /* biv4Tests.swift */; };
+		634790F41BE1862F003A201A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634790F31BE1862F003A201A /* ContentViewController.swift */; };
+		63FB2FA51C75677F00B494C9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FB2FA41C75677F00B494C9 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		634790E31BE185FC003A201A /* biv4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biv4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634790E81BE185FC003A201A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634790E91BE185FC003A201A /* biv4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biv4Tests.swift; sourceTree = "<group>"; };
+		634790F31BE1862F003A201A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		63FB2FA41C75677F00B494C9 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				634790D31BE185FC003A201A /* AppDelegate.swift */,
+				63FB2FA41C75677F00B494C9 /* ViewController2.swift */,
 				634790D51BE185FC003A201A /* ViewController.swift */,
+				634790F31BE1862F003A201A /* ContentViewController.swift */,
 				634790D71BE185FC003A201A /* Main.storyboard */,
 				634790DA1BE185FC003A201A /* Images.xcassets */,
 				634790DC1BE185FC003A201A /* LaunchScreen.xib */,
@@ -156,6 +162,8 @@
 		634790C61BE185FC003A201A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Skylar Jones";
 				TargetAttributes = {
@@ -213,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				634790D61BE185FC003A201A /* ViewController.swift in Sources */,
+				63FB2FA51C75677F00B494C9 /* ViewController2.swift in Sources */,
+				634790F41BE1862F003A201A /* ContentViewController.swift in Sources */,
 				634790D41BE185FC003A201A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +415,7 @@
 				634790EF1BE185FC003A201A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634790F01BE185FC003A201A /* Build configuration list for PBXNativeTarget "biv4Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				634790F21BE185FC003A201A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
